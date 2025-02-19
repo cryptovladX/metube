@@ -20,7 +20,6 @@ export const Formats: Format[] = [
       { id: '1080', text: '1080p' },
       { id: '720', text: '720p' },
       { id: '480', text: '480p' },
-      { id: 'worst', text: 'Worst' },
       { id: 'audio', text: 'Audio Only' },
     ],
   },
@@ -35,7 +34,6 @@ export const Formats: Format[] = [
       { id: '1080', text: '1080p' },
       { id: '720', text: '720p' },
       { id: '480', text: '480p' },
-      { id: 'worst', text: 'Worst' },
     ],
   },
   {
@@ -58,11 +56,6 @@ export const Formats: Format[] = [
     ],
   },
   {
-    id: 'opus',
-    text: 'OPUS',
-    qualities: [{ id: 'best', text: 'Best' }],
-  },
-  {
     id: 'wav',
     text: 'WAV',
     qualities: [{ id: 'best', text: 'Best' }],
@@ -70,11 +63,6 @@ export const Formats: Format[] = [
   {
     id: 'flac',
     text: 'FLAC',
-    qualities: [{ id: 'best', text: 'Best' }],
-  },
-  {
-    id: 'thumbnail',
-    text: 'Thumbnail',
     qualities: [{ id: 'best', text: 'Best' }],
   },
 ];
